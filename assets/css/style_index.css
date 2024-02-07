@@ -8,11 +8,26 @@
     src: url("../fonts/roadstore/ROADSTORE\ Dafont.ttf");
 }
 
+@font-face{ /*Font externa salvo na pasta*/
+    font-family: 'docktrin';
+    src: url("../fonts/docktrin/docktrin.ttf");
+}
+
+@font-face{ /*Font externa salvo na pasta*/
+    font-family: 'shadowed_serif';
+    src: url("../fonts/shadowed_serif/SHADSER.TTF");
+}
+
+@font-face{ /*Font externa salvo na pasta*/
+    font-family: 'Lost_Saloon';
+    src: url("../fonts/lost_saloon/Lost\ Saloon.ttf");
+}
+
+
 *{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    
 }
 
 header{
@@ -29,11 +44,19 @@ header{
 .logo{
     display: flex;
     align-items: center;
+    
+    
 }
 
 .logo h1{
     color: #fff;
-    font-family: roadstore;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo img{
+    width: 1.9rem;
+    margin: 0 1.5rem;
+   
 }
 
 .nav-list{

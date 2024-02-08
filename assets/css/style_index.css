@@ -1,101 +1,114 @@
-@font-face{ /*Font externa salvo na pasta*/
+@font-face {
+    /*Font externa salvo na pasta*/
     font-family: 'WesternBangBang-Regular';
     src: url("../fonts/western_bang_bang/WesternBangBang-Regular.ttf");
 }
 
-@font-face{ /*Font externa salvo na pasta*/
+@font-face {
+    /*Font externa salvo na pasta*/
     font-family: 'roadstore';
     src: url("../fonts/roadstore/ROADSTORE\ Dafont.ttf");
 }
 
-@font-face{ /*Font externa salvo na pasta*/
+@font-face {
+    /*Font externa salvo na pasta*/
     font-family: 'docktrin';
     src: url("../fonts/docktrin/docktrin.ttf");
 }
 
-@font-face{ /*Font externa salvo na pasta*/
+@font-face {
+    /*Font externa salvo na pasta*/
     font-family: 'shadowed_serif';
     src: url("../fonts/shadowed_serif/SHADSER.TTF");
 }
 
-@font-face{ /*Font externa salvo na pasta*/
+@font-face {
+    /*Font externa salvo na pasta*/
     font-family: 'Lost_Saloon';
     src: url("../fonts/lost_saloon/Lost\ Saloon.ttf");
 }
 
 
-*{
+
+* {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
 }
 
-header{
+header {
     background-color: #24252a;
     box-shadow: 0px 3px 10px #464646;
+    
+
 }
 
-.nav-bar{
+.nav-bar {
     display: flex;
     justify-content: space-between;
     padding: 1rem 1rem;
+  
+
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
-    
-    
+
+
 }
 
-.logo h1{
+.logo h1 {
     color: #fff;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 2px 2px 20px chartreuse;
 }
 
-.logo img{
+.logo img {
     width: 1.9rem;
     margin: 0 1.5rem;
-   
+
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     align-items: center;
 }
 
-.nav-list ul{
+.nav-list ul {
     display: flex;
     justify-content: center;
     list-style: none;
-
 }
 
-
-.nav-item{
+.nav-item {
     margin: 0 2rem;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     font-size: 1.15rem;
     color: #fff;
     font-weight: 400;
-    transition: all .5s ease-in-out; /*transição suave*/
+    transition: all .5s ease-in-out;
+    /*transição suave*/
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: chartreuse;
     
-    
 }
 
-.login-button button{
+ul li .ativo{ /*não esta funcionando*/
+    color: chartreuse;
+}
+
+.login-button button {
     border: none;
     background-color: chartreuse;
     padding: 10px 15px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .login-button button a {
@@ -107,62 +120,71 @@ header{
 
 /*ESCONDER MENU MOBILIDADE*/
 
-.mobile-menu-icon{
+.mobile-menu-icon {
     display: none;
 }
 
-.mobile-menu{
+.mobile-menu {
     display: none;
 }
 
-@media screen and (max-width: 1024px){
-    .nav-bar{
+@media screen and (max-width: 1024px) {
+    .nav-bar {
         padding: 1.5rem 4rem;
     }
-    .nav-item{
+
+    .nav-item {
         display: none;
     }
-    .login-button{
+
+    .login-button {
         display: none;
-        
+
     }
-    .mobile-menu-icon{
+
+    .mobile-menu-icon {
         display: block;
     }
-    .mobile-menu-icon span{
-        color:#fff
+
+    .mobile-menu-icon span {
+        color: #fff
     }
-    .mobile-menu-icon button{
+
+    .mobile-menu-icon button {
         background-color: transparent;
         border: none;
         cursor: pointer;
     }
-    .mobile-menu ul{
+
+    .mobile-menu ul {
         display: flex;
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
     }
-    .mobile-menu .nav-item{
+
+    .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
     }
+
     .mobile-menu .login-button {
         display: block;
         padding: 1rem 2rem;
     }
-    .mobile-menu .login-button button{
+
+    .mobile-menu .login-button button {
         width: 100%;
     }
-    .open{
+
+    .open {
         display: block;
     }
-    
+
 
 }
-    
+
 
 
 
 /*FIM CONFIGURAÇÃO MOBILE*/
-

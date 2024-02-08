@@ -51,6 +51,7 @@ header{
 .logo h1{
     color: #fff;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 20px chartreuse;
 }
 
 .logo img{
@@ -86,6 +87,7 @@ header{
 
 .nav-link:hover{
     color: chartreuse;
+    
     
 }
 

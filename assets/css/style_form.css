@@ -1,0 +1,7 @@
+.form{
+    display: flex;              /*Block do conteudo*/
+    justify-content: center;
+    align-items: center;
+    padding: 10px;              /*Espaço interno do objeto cima, direita, baixo, esquerda*/
+    
+}

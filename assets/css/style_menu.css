@@ -39,22 +39,17 @@
 header {
     background-color: #24252a;
     border-bottom: 3px chartreuse solid ;  /*Borda baixo*/
-
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
     padding: 1rem 1rem;
-  
-
 }
 
 .logo {
     display: flex;
     align-items: center;
-
-
 }
 
 .logo h1 {

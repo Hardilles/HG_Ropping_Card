@@ -1,7 +1,64 @@
+
+
 .form{
     display: flex;              /*Block do conteudo*/
     justify-content: center;
     align-items: center;
-    padding: 10px;              /*Espaço interno do objeto cima, direita, baixo, esquerda*/
+    padding: 20px;              /*Espaço interno do objeto cima, direita, baixo, esquerda*/
+    background-color: #24252a;
     
+}
+
+.formulario{
+    color: white;
+}
+
+.usuario{
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.mensagem{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+p{
+    padding: 10px;
+}
+
+
+.button-enviar{
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    background-color:chartreuse;
+    color: #1e1c2e;
+    margin-top: 15px;
+    
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    height: 30px;
+    padding-left: 15px;
+    background-color: #d8d8d8;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    
+}
+
+textarea{
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    height: 30px;
+    padding-left: 15px;
+    background-color: #d8d8d8;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
 }

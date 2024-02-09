@@ -60,7 +60,7 @@ header {
 .logo h1 {
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 2px 2px 20px chartreuse;
+    
 }
 
 .logo img {
@@ -112,9 +112,9 @@ ul li .ativo{ /*não esta funcionando*/
 
 .login-button button a {
     text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: 0.5rem;
+    color:  #24252a;
+    font-weight: 600;
+    font-size: 0.8rem;
 }
 
 /*ESCONDER MENU MOBILIDADE*/

@@ -31,16 +31,16 @@
             </div>
 
             <div class="login-button">
-                <button><a href="#"></a>Login</button>
+                <a href="./login.html"><button>Login</button></a>
             </div>
 
 <!-------------------MOBILIDADE---------------------->
 
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()">
-                    <span class="material-symbols-outlined">menu</span>
-                </button>
-            </div>
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
 
         </nav>
 
@@ -55,7 +55,7 @@
             </ul>
 
             <div class="login-button">
-                <button><a href="#"></a>Login</button>
+                <a href="./login.html"><button>Login</button></a>
             </div>
 
         </div>
@@ -67,17 +67,17 @@
    
         <div class="form">
             <form class="formulario">
-                <fieldset id="usuario">                                    <!--Conjunto de campos-->
+                <fieldset class="usuario">                                    <!--Conjunto de campos-->
                     <legend>Identificação do Usuário</legend>              <!--Legenda-->
                         <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="30" maxlength="30" placeholder="Nome Completo"></p> <!--placeholder é a descrição do campo "label" para aceitar clicar na palavra-->
                         <p><label for="cEmail">E-mail:</label><input type="email" name="tEmail" id="cEmail" size="40" maxlength="40" placeholder="e-mail"></p>
                         <p><label for="cCelular">Celular:</label><input type="tel" name="tCelular" id="cCelular" size="15" maxlength="11" placeholder="(   ) 99999-9999"></p>
                 </fieldset>
         
-                <fieldset id="mensagem">
+                <fieldset class="mensagem">
                     <legend>Mensagem do Usuário</legend>
                     <textarea name="tMsg" id="cMsg" cols="52" rows="2" placeholder="deixe aqui sua mensagem"></textarea></p> <!--Caixa de texto maior de text-->
-                    <input type="submit" name="tEnviar" value="Enviar"> <!--Modelo 1 de botão-->
+                    <a href="#"><button class="button-enviar">Enviar</button></a>
                 </fieldset>   
             </form>
         </div>

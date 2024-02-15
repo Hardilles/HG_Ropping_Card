@@ -114,3 +114,10 @@ input:focus{
     color: white;
     font-size: 2rem;
 }
+
+
+@media screen and (max-width: 700px){
+    .caixa-logo{
+        display: none;
+    }
+}

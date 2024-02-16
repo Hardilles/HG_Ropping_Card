@@ -27,9 +27,12 @@ body{
     flex-direction: column;
 
     transition: all .3s ease-in-out; /*transição suave*/
+
+    
 }
 
 .item:hover{
+    
     
     transform: scale(1.1);
     /*transform: scale(1.1);   */
@@ -56,7 +59,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 30px;
-    font-size: 1.5rem;
+    font-size: 1.15rem;
     color: white;
 }
 

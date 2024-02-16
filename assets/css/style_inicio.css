@@ -54,6 +54,14 @@ body{
     
 }
 
+#open-modal{
+    background-color: transparent;
+    border: none;
+    color: chartreuse;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 .date{
     display: flex;
     justify-content: center;

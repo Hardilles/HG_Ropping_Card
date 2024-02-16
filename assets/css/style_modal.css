@@ -30,7 +30,7 @@
     top: 50%;
     background-color: rgb(255, 255, 255);
     z-index: 10;
-    transform: translate(-50%, -50%);
+    transform: translate(-2%, -50%);
     width: 500px;
     max-width: 90%;
     padding: 1.2rem;
@@ -44,7 +44,12 @@
     border-bottom: 2px solid rgb(95, 95, 95);
     margin-bottom: 1rem;
     padding-bottom: 1rem;
+    
 
+}
+
+.categorias{
+    margin-left: 200px;
 }
 
 #modal.hide, /*MODAL SUMIR*/
@@ -56,3 +61,16 @@
 #modal.hide{
     top: 0;
 }
+
+#folder-item1{
+    width: 300px;
+    position: fixed;
+    left: -50%;
+    top: 50%;
+    transform: translate(-78%, -50%);
+    border-radius: 1.5rem;
+    border-color: 2px chartreuse;
+    
+    
+}
+
